@@ -1,0 +1,24 @@
+.location {
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  padding-inline: 30px;
+}
+
+.location__frame {
+  width: 100%;
+  height: 80%;
+  margin-top: 30px;
+}
+
+.location__frame iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.location__heading {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

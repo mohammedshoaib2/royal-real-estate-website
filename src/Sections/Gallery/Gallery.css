@@ -1,0 +1,36 @@
+.gallery {
+  height: fit-content;
+  width: 100%;
+  padding: 30px;
+}
+
+.gallery__heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.gallery__heading > p {
+  text-align: center;
+}
+
+.gallery__main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  margin-block: 30px;
+  gap: 10px;
+}
+
+.gallery__card img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+}
